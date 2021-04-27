@@ -1,0 +1,7 @@
+.back{
+    background: linear-gradient(90deg, #6c0979 0%, #2a2cb6 49%, #2ab6b0 100%);
+    background-image: fill;
+    /* margin: 50px 0 50px 0;
+    padding: 10% 0 0 0; */
+    position: center;
+}

@@ -3,7 +3,8 @@ import React from "react";
 function Contact(){
 
     return(
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+
+        <form id="contact-form"  method="POST">
     <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" className="form-control" />
@@ -18,6 +19,8 @@ function Contact(){
     </div>
     <button type="submit" className="btn btn-primary">Submit</button>
 </form>
+
+
     );
 }
 

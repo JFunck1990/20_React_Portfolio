@@ -20,7 +20,7 @@ function Header() {
 //   </div>
 // </nav>
 <div>
-        <nav>
+        <nav className="" >
           <ul>
             <li>
               <Link to="/">Home</Link>

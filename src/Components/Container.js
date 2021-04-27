@@ -1,19 +1,19 @@
 import React from "react";
-import { Router, Switch, Route} from "react-router-dom";
-
+//import styled from "styled-components";
+import { Switch, Route} from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
-function Container() {
+function Container({ location }) {
   return (
-    <Router>
     <div>
 
+
           <section className="route-section">
-            <Switch >
+            <Switch location={location}>
               <Route exact path="/" component={Home} />
               <Route path="/About" component={About} />
               <Route path="/Portfolio" component={Portfolio} />
@@ -21,9 +21,8 @@ function Container() {
             </Switch>
           </section>
 
-
+    
     </div>
-    </Router>
   );
 }
 

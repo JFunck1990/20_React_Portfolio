@@ -1,13 +1,15 @@
 //import logo from './logo.svg';
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Header from "./Components/Header";
 import './App.css';
 import PageContext from "./utils/PageContext"
-// import Home from "./Components/Home"
-// import Resume from "./Components/Resume"
-import Container from "./Components/Container"
-//import { BrowserRouter } from "react-router-dom";
+ import Home from "./Components/Home"
+import About from "./Components/About"
+import Portfolio from "./Components/Portfolio"
+ import Resume from "./Components/Resume"
+import Wrapper from "./Components/Wapper"
+import Contact from "./Components/Contact"
 
 function App() {
   const [pageState, setPageState] = useState({
@@ -24,7 +26,16 @@ function App() {
       <Router>
       <div>
         <Header/>
-        <Container></Container>
+        <Wrapper>
+        <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+        <Route exact path="/Resume" component={Resume} />
+        <Route exact path="/Contact" component={Contact} />
+        </Switch>
+
+        </Wrapper>
 
       </div>
       </Router>
