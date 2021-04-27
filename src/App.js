@@ -1,10 +1,11 @@
 //import logo from './logo.svg';
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
 import './App.css';
 import PageContext from "./utils/PageContext"
 import Home from "./Components/Home"
-import Footer from "./Components/Footer"
+
 //import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
       <div>
       <Header></Header>
       <Home></Home>
-      <Footer></Footer>
     </div>
     </PageContext.Provider>
   );

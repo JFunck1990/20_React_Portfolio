@@ -16,7 +16,7 @@
     left: 4%;
     right: 0;
     bottom: 0;
-    color: rgb(173, 13, 13);
+    color: rgb(240, 240, 240);
     pointer-events: none;
   }
 
@@ -129,7 +129,8 @@
   }
 
   .home {
-    background: linear-gradient(90deg, #09796c 0%, #2ab6b0 49%, #2ab6b0 100%);
+    background: linear-gradient(90deg, #6c0979 0%, #2a2cb6 49%, #2ab6b0 100%);
+    /*background-image: url("../../public/images/pexels-simon-migaj-747964.jpg");*/
     display: flex;
     align-items: center;
     justify-content: center;
