@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
 import './App.css';
 import PageContext from "./utils/PageContext"
-import Home from "./Components/Home"
-
+// import Home from "./Components/Home"
+// import Resume from "./Components/Resume"
+import Container from "./Components/Container"
 //import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -20,10 +21,13 @@ function App() {
   });
   return (
     <PageContext.Provider value={pageState}>
+      <Router>
       <div>
-      <Header></Header>
-      <Home></Home>
-    </div>
+        <Header/>
+        <Container></Container>
+
+      </div>
+      </Router>
     </PageContext.Provider>
   );
 }
