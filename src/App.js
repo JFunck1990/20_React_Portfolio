@@ -4,7 +4,8 @@ import Header from "./Components/Header";
 import './App.css';
 import PageContext from "./utils/PageContext"
 import Home from "./Components/Home"
-import { BrowserRouter } from "react-router-dom";
+import Footer from "./Components/Footer"
+//import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [pageState, setPageState] = useState({
@@ -21,6 +22,7 @@ function App() {
       <div>
       <Header></Header>
       <Home></Home>
+      <Footer></Footer>
     </div>
     </PageContext.Provider>
   );
