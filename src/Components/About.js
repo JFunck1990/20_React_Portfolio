@@ -4,8 +4,8 @@ import "../styles/About.css"
 
 function About(){
     return (
-<div>
-<section className="back" >
+<div className="back">
+<section  >
   <div className=" row">
   <div className="col-md-12 art">
 

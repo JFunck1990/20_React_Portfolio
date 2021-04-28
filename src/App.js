@@ -10,7 +10,8 @@ import Portfolio from "./Components/Portfolio"
  import Resume from "./Components/Resume"
 import Wrapper from "./Components/Wapper"
 import Contact from "./Components/Contact"
-import Hwdata from "./data/Hwdata"
+//import Hwdata from "./data/Hwdata"
+
 
 function App() {
   const [pageState, setPageState] = useState({

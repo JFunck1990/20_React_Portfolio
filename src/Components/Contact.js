@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "./Footer"
 
 function Contact(){
 
     return(
-
+<div>
         <form id="contact-form"  method="POST">
     <div className="form-group">
         <label htmlFor="name">Name</label>
@@ -19,8 +20,8 @@ function Contact(){
     </div>
     <button type="submit" className="btn btn-primary">Submit</button>
 </form>
-
-
+    <Footer></Footer>
+</div>
     );
 }
 

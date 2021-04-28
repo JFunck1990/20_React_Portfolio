@@ -1,8 +1,10 @@
 import React from "react";
+//mport Footer from "./Footer"
 
 
 function Portfolio() {
   return (
+
     <div className="row">
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
@@ -13,8 +15,7 @@ function Portfolio() {
         <div className="card-body">
           <h5 className="card-title">Code Quiz</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+
           </p>
           <a href="https://jfunck1990.github.io/HW-4--Web-APIs-Code-Quiz/" target="blank" className="btn btn-primary">
             Deploy
@@ -24,6 +25,7 @@ function Portfolio() {
           </a>
         </div>
       </div>
+
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
@@ -43,6 +45,7 @@ function Portfolio() {
           </a>
         </div>
       </div>
+
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
@@ -62,22 +65,22 @@ function Portfolio() {
           </a>
         </div>
       </div>
+
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src=""
+          src="images/weather.png"
           alt=""
         />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Weather Dashboard</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Utilizing Jquery and openWeather api to build a current and five day forcast of your city/town of your choosing.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="https://jfunck1990.github.io/Jack-s-Weather-Dashboard/" target="blank" className="btn btn-primary">
             Deploy
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/JFunck1990/Jack-s-Weather-Dashboard" target="blank" className="btn btn-primary">
             Repository
           </a>
         </div>
@@ -85,19 +88,18 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src=""
+          src="images/tlh.png"
           alt=""
         />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">The Location Hub</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+         This is a group project using Jquery, Open Weather Api, Zomato Api, and Covidtracking Api to get local weather,States Covid update, and 3 local restraunts
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="https://zsmith4331.github.io/project1-team4/" target="blank" className="btn btn-primary">
             Deploy
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/zsmith4331/project1-team4" target="blank" className="btn btn-primary">
             Repository
           </a>
         </div>
@@ -105,19 +107,18 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src=""
+          src="images/burger.png"
           alt=""
         />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Burger Log</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          Using NodeJs, Handlebars, and Mysql to build a restraunt app which let users input names of burgers that they like, devour the burgers, reorder the burger, or delete the burger.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="https://the-burger-logger.herokuapp.com/" target="blank" className="btn btn-primary">
             Deploy
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/JFunck1990/The-Burger-Log" target="blank" className="btn btn-primary">
             Repository
           </a>
         </div>
@@ -125,23 +126,23 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src=""
+          src="images/notes.png"
           alt=""
         />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">The Note Taker</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          This simple note taking application that allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app makes creating, viewing, and deleting notes effortless!
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="https://agile-waters-80427.herokuapp.com/" target="blank" className="btn btn-primary">
             Deploy
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/JFunck1990/The-Note-Taker" target="blank" className="btn btn-primary">
             Repository
           </a>
         </div>
       </div>
+
     </div>
   );
 }
