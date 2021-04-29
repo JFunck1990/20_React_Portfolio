@@ -1,4 +1,12 @@
 import React from "react";
+import passgen from "./images/passGen.png"
+import Codequiz from "./images/Codequiz.png"
+import wds from "./images/wds.png"
+import Weather from "./images/weather.png"
+import Tlh from "./images/tlh.png"
+import Burger from "./images/burger.png"
+import Notes from "./images/notes.png"
+
 //mport Footer from "./Footer"
 
 
@@ -9,13 +17,15 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/Code quiz.png"
+          src={Codequiz}
           alt=""
         />
         <div className="card-body">
           <h5 className="card-title">Code Quiz</h5>
           <p className="card-text">
+          This quiz asks the user a series of questions about web development and times how long it takes to answer them all. The user is given 165 seconds to start out with, and each wrong answer results in a 15-second penalty. The user's final score is equal to the number of seconds left on the clock after the final question is answered.
 
+          To start the quiz, the user clicks the "Start Quiz" button on the landing page.
           </p>
           <a href="https://jfunck1990.github.io/HW-4--Web-APIs-Code-Quiz/" target="blank" className="btn btn-primary">
             Deploy
@@ -29,7 +39,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/passGen.png"
+          src={passgen}
           alt=""
         />
         <div className="card-body">
@@ -49,7 +59,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/wds.png"
+          src={wds}
           alt=""
         />
         <div className="card-body">
@@ -57,10 +67,10 @@ function Portfolio() {
           <p className="card-text">
           Each hour is color coded red "past", Pastel Red "present", and Pastel Green "future". Type in a reminder and hit save and it will be locally saved.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="https://jfunck1990.github.io/HW-5-Third-Party-APIs-Work-Day-Scheduler/" target="blank" className="btn btn-primary">
             Deploy
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/JFunck1990/HW-5-Third-Party-APIs-Work-Day-Scheduler" target="blank" className="btn btn-primary">
             Repository
           </a>
         </div>
@@ -69,7 +79,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/weather.png"
+          src={Weather}
           alt=""
         />
         <div className="card-body">
@@ -88,7 +98,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/tlh.png"
+          src={Tlh}
           alt=""
         />
         <div className="card-body">
@@ -107,7 +117,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/burger.png"
+          src={Burger}
           alt=""
         />
         <div className="card-body">
@@ -126,7 +136,7 @@ function Portfolio() {
       <div className="col-md-4 card" style={{width: "18rem"}}>
         <img
           className="card-img-top"
-          src="images/notes.png"
+          src={Notes}
           alt=""
         />
         <div className="card-body">

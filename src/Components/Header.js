@@ -23,7 +23,7 @@ function Header() {
         <nav className="" >
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/20_React_Portfolio">Home</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
