@@ -4,23 +4,23 @@ import "../styles/Header.css"
 
 function Header() {
   return (
-//     <nav class="nav content-center navbar-expand-lg navbar-dark bg-dark">
-//   <a class="navbar-brand" href="#">Jack Funck</a>
-//   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-//     <span class="navbar-toggler-icon"></span>
+//     <nav className="nav content-center navbar-expand-lg navbar-dark bg-dark">
+//   <Link className="navbar-brand" href="#">Jack Funck</Link>
+//   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+//     <span className="navbar-toggler-icon"></span>
 //   </button>
-//   <div class="justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
-//     <div class="navbar-nav">
-//       <a className="nav-item nav-link active" to="/"><link>Home</link><span class="sr-only">(current)</span></a>
-//       <a className="nav-item nav-link" to="About">About</a>
-//       <a className="nav-item nav-link" to="Portfolio">Portfolio</a>
-//       <a className="nav-item nav-link" to="Resume">Resume</a>
-//       <a className="nav-item nav-link" to="Contact">Contact</a>
+//   <div className="justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
+//     <div className="navbar-nav">
+//       <Link className="nav-item nav-link active" to="/20_React_Portfolio"><link>Home</link><span class="sr-only">(current)</span></Link>
+//       <Link className="nav-item nav-link" to="About">About</Link>
+//       <Link className="nav-item nav-link" to="Portfolio">Portfolio</Link>
+//       <Link className="nav-item nav-link" to="Resume">Resume</Link>
+//       <Link className="nav-item nav-link" to="Contact">Contact</Link>
 //     </div>
 //   </div>
 // </nav>
-<div>
-        <nav className="" >
+ <div>
+        <nav className="nav content-center navbar-expand-lg navbar-dark bg-dark" >
           <ul>
             <li>
               <Link to="/20_React_Portfolio">Home</Link>
