@@ -34,9 +34,9 @@ function Header() {
             <li>
               <Link to="/Resume">Resume</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/Contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
 </div>

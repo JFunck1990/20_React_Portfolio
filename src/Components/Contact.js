@@ -1,26 +1,25 @@
 import React from "react";
-import Footer from "./Footer"
+//import Footer from "./Footer"
 
 function Contact(){
 
     return(
 <div>
-        <form id="contact-form"  method="POST">
-    <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" className="form-control" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
-        <input type="email" className="form-control" aria-describedby="emailHelp" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea className="form-control" rows="5"></textarea>
-    </div>
-    <button type="submit" className="btn btn-primary">Submit</button>
-</form>
-    <Footer></Footer>
+<div className=" col-md-1">
+          <a href="mailto: jackfunck21@gmail.com" target="blank">
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+            </svg>
+          </a>
+        </div>
 </div>
     );
 }

@@ -9,7 +9,7 @@ import About from "./Components/About"
 import Portfolio from "./Components/Portfolio"
  import Resume from "./Components/Resume"
 import Wrapper from "./Components/Wapper"
-import Contact from "./Components/Contact"
+// import Contact from "./Components/Contact"
 
 //import Hwdata from "./data/Hwdata"
 
@@ -37,7 +37,7 @@ function App() {
         <Route exact path="/About" component={About} />
         <Route exact path="/Portfolio" component={Portfolio}/>
         <Route exact path="/Resume" component={Resume} />
-        <Route exact path="/Contact" component={Contact} />
+         {/* <Route exact path="/Contact" component={Contact} /> */}
         </Switch>
 
         </Wrapper>
