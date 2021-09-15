@@ -10,7 +10,7 @@ by: Jack Funck
 
 <a name="link"></a>
 ## Link
-give it a try: <a href="https://jfunck1990.github.io/20_React_Portfolio/" target="_blank"> Employee Directory</a>
+give it a try: <a href="https://jfunck1990.github.io/20_React_Portfolio/" target="_blank"> React Portfolio</a>
 
 <a name="desc"></a>
 ## Description
